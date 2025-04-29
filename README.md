@@ -24,3 +24,30 @@
 - **Splunk**: A leading tool for searching, analyzing, and visualizing machine-generated data.
 - **Graylog**: An open-source log management solution.
 - **Wazuh**: An open-source security monitoring platform that integrates well with ELK for log analysis and threat detection
+
+  # Let's Begin...
+  # Task :- Analyzing Windows security logs
+  ## Objective:-
+ - The objective of this task is to understand the windows security logs and understand how to analyze security logs for security related events. Goal is to learn how to analyze security ebvents like logging attempts , user account changes and other critical security events.
+## Requirements:-
+- **VMware or virtual box**
+- **windows server installed in vmware or windows 10 etc**
+- **Tools**
+     - **Event viewer**
+     - **NotePad**(to create custom events if needed)
+     - **Administrative privilleges**(to access certain security logs)
+## What are Windows Security Logs?
+- Windows Security Logs contain records of security-related events on the system, such as:
+- **Successful and Failed Login Attempts**: Track users who log in or fail to log in.
+- **Account Lockouts**: Occurs when a user exceeds the maximum allowed number of incorrect login attempts.
+- **Audit Policies**: Logs related to changes in system audit settings and configurations.
+- **Group Membership Changes**: Tracks changes in group memberships and user privileges.
+- **Privilege Escalation**: Logs events when a user gains elevated privileges.
+## Understanding Event IDs in Security Logs:
+- **Event ID 4624**: Successful Logon.
+- **Event ID 4625**: Failed Logon.
+ **Event ID 4740**: Account Lockout.
+- **Event ID 4732**: A user was added to a security-enabled local group.
+- **Event ID 4672**: Special privileges assigned to a new logon (Privilege escalation).
+
+  
